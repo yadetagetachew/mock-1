@@ -1,0 +1,89 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* nav bar begins */
+.navClass {
+    background-color: white;
+    text-align: center;
+    margin-bottom: 1vw;
+    justify-content: center;
+    border: solid 3px;
+    box-shadow: 5px 5px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    justify-content: center;
+}
+li {
+    float: left;
+}
+li a {
+    color: black;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* nav bar ends */
+
+/* body begins */
+h2{
+    text-align: center;
+}
+
+p {
+    font-size: 25px;
+}
+
+.sectionClass {
+    color: rgb(19, 17, 17);
+    background-color: rgb(85, 7, 7);
+    text-align: center;
+    margin: 20px;
+    width: 30vw;
+    height: 15vw;
+}
+
+.divColumnLeft {
+    float: left;
+    margin-left: 2vw;
+}
+
+
+.divColumnRight {
+    float: right;
+    margin-right: 5vw; 
+}
+
+
+.asideClass {
+    background-color: tomato;
+    color: wheat;
+    text-align: center;
+    width: 55vw;
+    height: 15vw;
+    margin: 20px;
+    margin-right: -18px;
+} 
+/* body ends */
+
+.container {
+    height: 9vw;
+    background-color:rgb(108, 108, 58);
+    text-align: center;
+    border: solid 3px;
+    margin: 20px;
+    margin-left: 43px;
+    margin-right: 43px;
+    margin-top: 55%;
+}
